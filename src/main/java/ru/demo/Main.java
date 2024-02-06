@@ -10,5 +10,8 @@ public class Main {
 
         while (ticketsItr.hasNext()) {
             JSONObject test = (JSONObject) ticketsItr.next();
-            System.out.println("- tickets: " + test.get("departure_time") );
+            System.out.println("- tickets: " + test.get("departure_time"));
 
+        }
+
+    }
